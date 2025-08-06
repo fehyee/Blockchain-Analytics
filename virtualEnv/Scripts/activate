@@ -42,10 +42,10 @@ deactivate nondestructive
 if [ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "C:\Users\PC\Desktop\Python Blockchain Analysis\virtualEnv")
+    export VIRTUAL_ENV=$(cygpath "C:\Users\PC\Desktop\Python Blockchain Analysis\Python Blockchain Analysis Class\virtualEnv")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\PC\Desktop\Python Blockchain Analysis\virtualEnv"
+    export VIRTUAL_ENV="C:\Users\PC\Desktop\Python Blockchain Analysis\Python Blockchain Analysis Class\virtualEnv"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
