@@ -1,0 +1,5 @@
+# Ignore the env file
+API/.env
+
+# Ignore terminal file
+terminal.txt
